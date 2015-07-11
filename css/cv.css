@@ -87,7 +87,7 @@ body { padding-top: 50px; }
 }
 
 /******************************************
-* Expériences professionnelles
+*     Expériences professionnelles
 ******************************************/
 .experience { margin-bottom: 15px; }
 .experience .lieu { font-size: 1.4em; font-weight: bold; }
@@ -96,7 +96,7 @@ body { padding-top: 50px; }
 .experience .details { font-size: 1.2em; line-height: 1.5em; }
 
 /******************************************
-* Me contacter
+*     Me contacter
 ******************************************/
 .meContacter { clear: both; }
 .meContacter .details { width: 80%; margin-left: 10px; margin-top: 3px;
@@ -115,7 +115,7 @@ body { padding-top: 50px; }
 }
 
 /******************************************
-* Compétences
+*     Compétences
 ******************************************/
 #competences .container .libelle { float: left; font-size: 1.3em; }
 #competences .container .classement { float: right;
@@ -127,3 +127,12 @@ body { padding-top: 50px; }
 #competences .container .classement3 { background-position: 0 -56px; }
 #competences .container .classement4 { background-position: 0 -28px; }
 #competences .container .classement5 { background-position: 0 0px; }
+
+/******************************************
+*     Langues
+******************************************/
+#langues .langue, #langues .niveau{ font-size: 1.3em; float: left; }
+#langues .langue { padding-top: 3px; }
+#langues .niveau{
+  float: right;
+}
